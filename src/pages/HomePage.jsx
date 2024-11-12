@@ -18,6 +18,7 @@ const HomePage = () => {
     setLoading(true);
     try {
       const response = await fetchApiData(query, cursor);
+      console.log('response', response.result.hits);
       setHosts(response.result.hits);
       setPaginationLinks({
         next: response.result.links?.next,
