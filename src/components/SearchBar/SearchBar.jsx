@@ -1,3 +1,5 @@
+import React from 'react';
+
 const SearchBar = ({ setQuery }) => {
   const handleSearchSubmit = (e) => {
     e.preventDefault();
