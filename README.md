@@ -18,12 +18,8 @@ This project is a client-side web application that uses the Censys REST API to r
 ### Installation
 
 1. **Clone the repository & Install dependencies**:
-
-   ```bash
-   git clone https://github.com/your-username/ipv4-hosts-search.git
-
-   npm i
-   ```
+   - clone repo via `git clone`
+   - After cloning, run `npm install` to ensure all packages are installed
 
 2. **Set up environment variables**:
 
