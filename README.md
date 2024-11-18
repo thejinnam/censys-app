@@ -39,7 +39,7 @@ This project is a client-side web application that uses the Censys REST API to r
 ### Automated Testing
 
 ```bash
-npm run dev
+npm run test
 ```
 
 This command will run all test suites and output results in the console.
